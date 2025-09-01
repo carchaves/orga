@@ -3,7 +3,6 @@
 // EJERCICIO 1
 
 int main(){
-    printf("Hola Orga!\n");
+    printf("Hola Orga!!\n");
     return 0;
 }
-

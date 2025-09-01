@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/charly/Desktop/Repositorios/orga'
+gcc -Wall -Wextra -pedantic -c ejercicio5.c -o ejercicio5.o
+gcc -Wall -Wextra -pedantic ejercicio5.o -o ejercicio5
+make: Leaving directory '/home/charly/Desktop/Repositorios/orga'
+ 

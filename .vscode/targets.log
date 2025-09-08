@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 31 23:32:25 2025
+# Make data base, printed on Sun Sep  7 13:42:53 2025
 
 # Variables
 
@@ -55,7 +55,7 @@ VSCODE_CODE_CACHE_PATH = /home/charly/.config/Code/CachedData/488a1f239235055e34
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.DQY3B3
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.4ZM4B3
 # default
 .LOADED := 
 # default
@@ -70,8 +70,6 @@ CURDIR := /home/charly/Desktop/Repositorios/orga
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -93,13 +91,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 16060
+VSCODE_PID = 15951
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/charly-laptop:@/tmp/.ICE-unix/2012,unix/charly-laptop:/tmp/.ICE-unix/2012
+SESSION_MANAGER = local/charly-laptop:@/tmp/.ICE-unix/2154,unix/charly-laptop:/tmp/.ICE-unix/2154
 # automatic
 *F = $(notdir $*)
 # environment
@@ -131,6 +129,8 @@ IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
+GSK_RENDERER = gl
+# environment
 PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
@@ -145,7 +145,7 @@ LC_TIME = es_ES.UTF-8
 # environment
 CLUTTER_DISABLE_MIPMAPPED_TEXT = 1
 # environment
-INVOCATION_ID = 533e64683ba54c3c8d9948cda2d11728
+INVOCATION_ID = e7772a5be76c4bcfac35f2b3d77cd2dc
 # makefile (from 'Makefile', line 4)
 ARCHIVO = ejercicio5
 # environment
@@ -175,7 +175,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2047
+SYSTEMD_EXEC_PID = 2189
 # environment
 DISPLAY = :0
 # environment
@@ -185,13 +185,13 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1840
+MANAGERPID = 1989
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
 LC_MEASUREMENT = es_ES.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 16060
+GIO_LAUNCHED_DESKTOP_FILE_PID = 15951
 # environment
 _ = /usr/share/code/code
 # environment
@@ -201,7 +201,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 3)
 CFLAGS = -Wall -Wextra -pedantic
 # environment
-JOURNAL_STREAM = 9:15288
+JOURNAL_STREAM = 9:17861
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -239,7 +239,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = es_ES.UTF-8
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=7/158=4%
+# Load=114/1024=11%, Rehash=0, Collisions=6/158=4%
 
 # Pattern-specific Variable Values
 
@@ -280,11 +280,11 @@ clean:
 	rm *.o $(ARCHIVO)
 
 ejercicio5.o: ejercicio5.c
+ 
 #  Implicit rule search has not been done.
 #  Last modified 2025-08-31 23:31:11.506441351
 #  File has been updated.
 #  Successfully updated.
- 
 #  recipe to execute (from 'Makefile', line 13):
 	$(CC) $(CFLAGS) -c $(ARCHIVO).c -o $(ARCHIVO).o
 
@@ -356,6 +356,6 @@ ejercicio5: ejercicio5.o
 # strcache performance: lookups = 41 / hit rate = 43%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=0/41=0%
-# Finished Make data base on Sun Aug 31 23:32:26 2025
+# Finished Make data base on Sun Sep  7 13:42:53 2025
 
  
